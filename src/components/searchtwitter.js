@@ -11,12 +11,12 @@ class Searchtwitter extends React.Component {
   }
   render(){
     return (
-      <div className="container">
+      <div>
         <form onSubmit={() => this.handleSubmit()}>
           <div className="row">
             <input type="text" ref={(ref) => this.getRef(ref)} />
           </div>
-          <div className="container">
+          <div>
             <button type="submit" className="btn btn-block btn-primary">Search #Trending</button>
           </div>
         </form>
