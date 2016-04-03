@@ -1,9 +1,8 @@
 import React from 'react';
-import SearchTwitter from '../searchtwitter';
-import Header from '../header';
-import Map from '../map';
+import Results from './results';
+import Map from './map';
 
-class Tweets extends React.Component {
+class LandingPage extends React.Component {
   render() {
     return (
       <div className="container">
@@ -15,7 +14,7 @@ class Tweets extends React.Component {
           </div>
           <div className="col-md-4">
             <div className="jumbotron awf-header">
-              <SearchTwitter />
+              <Results />
             </div>
           </div>
         </div>
@@ -24,4 +23,4 @@ class Tweets extends React.Component {
     }
   }
 
-  export default Tweets;
+  export default LandingPage;
