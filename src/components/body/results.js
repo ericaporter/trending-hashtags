@@ -1,6 +1,6 @@
 import React from 'react';
 import SearchTwitter from './searchtwitter';
-import HashtagListings from './hashtaglistings';
+import Listings from './listings';
 
 
 class Results extends React.Component {
@@ -10,7 +10,7 @@ class Results extends React.Component {
         <div className="row">
           <div className="col-md-4">
             <SearchTwitter />
-            <HashtagListings />
+            <Listings />
           </div>
         </div>
       </div>
