@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 
 class Map extends React.Component {
   render(){
@@ -6,4 +6,4 @@ class Map extends React.Component {
   }
 }
 
-export default Map;
+

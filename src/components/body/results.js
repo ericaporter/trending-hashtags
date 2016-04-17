@@ -8,7 +8,7 @@ class Results extends React.Component {
     return (
       <div className="container">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-12">
             <SearchTwitter />
             <Listings />
           </div>
